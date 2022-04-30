@@ -1,0 +1,44 @@
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+img[lazy="loading"]{
+    width:100%;
+    height:100%;
+    background-color: white;
+    margin:0 auto;
+    background-image: url("../../assets/img/loadImg.gif");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: none;
+}
+img[lazy=loaded] {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/img/loadImg.gif");
+}
+.goPage_btn{
+    width: 1200px!important;
+    text-align: center!important;
+}
+.hover_green{
+    cursor: pointer;
+}
+.hover_green:hover{
+    color: #3bd389;
+}
